@@ -7,6 +7,48 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
+    <div class="top">
+      <form class="form" id="form">
+        <select class="banks" id="banks">
+          <option value="">Выберите банк</option>
+          <option value="../css/img/sber-logo.png">СберБанк</option>
+          <option value="../css/img/raif.png">Райфайзен</option>
+          <option value="../css/img/alfa-bank-logo.png">Альфа-Банк</option>
+          <option value="../css/img/tink.png">Т-Банк</option>
+        </select>
+        <select class="systems" id="systems">
+          <option value="">Выберите платёжную систему</option>
+          <option value="../css/img/visa.gif">Visa</option>
+          <option value="../css/img/mastercard.png">Mastercard</option>
+          <option value="../css/img/mir.png">МИР</option>
+        </select>
+        <input type="text" placeholder="Введите номер карты" maxlength="16" id="cardNumberInput" />
+        <input type="text" placeholder="Введите имя и фамилию" maxlength="50" id="nameInput" />
+        <input type="text" placeholder="Введите месяц окончания" maxlength="2" id="monthInput" />
+        <input type="text" placeholder="Введите год окончания" maxlength="2" id="yearInput" />
+        <input type="text" placeholder="Введите CVC/CVV код" maxlength="3" id="cvcInput" />
+        <button type="submit" id="button">Сохранить</button>
+      </form>
+      <div class="card" id="card">
+        <div class="bankImageDiv"><img src="" id="bankImage" class="bankImage" /></div>
+        <div class="cardNumberDiv">
+          <p id="cardNumber" class="cardNumber">0000 0000 0000 0000</p>
+        </div>
+        <div class="myAndCvc" id="myAndCvc">
+          <div class="monthYear" id="monthYear">
+            <p class="month" id="month">00</p>
+            /
+            <p class="year" id="year">00</p>
+          </div>
+          <p class="Cvc" id="Cvc">000</p>
+        </div>
+        <div class="nameAndSystem" id="nameAndSystem">
+          <p class="name" id="name">ИМЯ ФАМИЛИЯ</p>
+          <img src="" class="systemImage" id="systemImage" />
+        </div>
+      </div>
+    </div>
+    <div class="bottom" id="bottom"></div>
     <script src="js/script.js"></script>
   </body>
 </html>

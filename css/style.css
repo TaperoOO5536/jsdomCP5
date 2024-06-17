@@ -1,0 +1,124 @@
+* {
+  padding: 0;
+  margin: 0;
+  color: #013d4f;
+  font-size: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 280px;
+  justify-content: space-between;
+}
+
+.card {
+  background-color: #f2fcff;
+  width: 301px;
+  height: 189px;
+  border-radius: 15px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-around;
+  height: 400px;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.bankImage {
+  width: 150px;
+}
+.bankImageDiv {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 300px;
+  height: 45px;
+  margin-bottom: 15px;
+}
+
+.systemImage {
+  width: 100px;
+}
+
+.myAndCvc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+}
+
+.monthYear {
+  display: flex;
+  height: 30px;
+  align-items: center;
+}
+
+.nameAndSystem {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  align-items: center;
+  height: 70px;
+}
+
+.cardNumberDiv {
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.resItem {
+  height: 50px;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  margin-right: 15px;
+}
+
+.resImg {
+  height: 45px;
+}
+
+.resStr {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background-color: #c9f3ff;
+}
+
+.banks,
+.systems,
+.cardNumberInput,
+.nameInput,
+.monthInput,
+.yearInput,
+.cvcInput {
+  border-color: #013d4f;
+  border-radius: 5px;
+}
+
+.bankRes {
+  width: 250px;
+}
