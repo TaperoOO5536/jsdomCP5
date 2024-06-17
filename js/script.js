@@ -79,7 +79,7 @@ form.addEventListener("submit", (e) => {
     bottom.innerHTML += `
     <div class="resStr">
       <div class="resItem bankRes"><img src="${this.banks.value}" class="resImg" alt="Упс, тут логотип банка"/></div>
-      <div class="resItem"><img src="${this.systems.value} alt="Упс, тут логотип платежной системы" class="resImg"/></div>
+      <div class="resItem"><img src="${this.systems.value}" alt="Упс, тут логотип платежной системы" class="resImg"/></div>
       <div class="resItem"><p>${cardNumber.innerHTML}</p></div>
       <div class="resItem">${monthYear.innerHTML}</div>
       <div class="resItem"><p>${cvc.innerHTML}</p></div>
